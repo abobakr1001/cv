@@ -1,0 +1,44 @@
+.bg-dark{
+  background:#000;
+  color:#fff;
+}
+
+#main-header{
+  img{
+    width:100%;
+    height:100%;
+  }
+  .d-port{
+    .fa{
+    cursor: pointer;
+     }
+  }
+
+  .port-item{
+    width:30%;
+
+    .fa{
+      font-size:3em;
+      
+    }
+  }
+
+  .port-item:hover{
+    opacity:0.8;
+    cursor:pointer;
+  }
+}
+
+@media(min-width:1199px){
+  .port-item{
+    padding:2em !important;
+  }
+}
+
+@media(min-width:991px){
+  .name{
+    .fa{
+      font-size:30px;
+    }
+  }
+}
